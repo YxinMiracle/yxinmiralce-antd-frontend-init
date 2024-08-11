@@ -70,7 +70,6 @@ export const AvatarDropdown: React.FC<GlobalHeaderRightProps> = ({ menu }) => {
       checkedChildren="🌞"
       unCheckedChildren="🌜"
       onClick={switchDarkMode}
-      defaultChecked
     ></Switch>
   );
 
